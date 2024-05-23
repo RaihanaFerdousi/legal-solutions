@@ -3,17 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ Section</title>
+    <title>Legal Solutions</title>
+    <style>
+        .banner-img{
+            background-image: url('/images/banner.png');
+            padding: 20%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <header class="mx-52 mt-10">
        <!-- nav  -->
-       <nav class="flex gap-40">
+       <nav class="flex gap-40 mb-10">
         <div>
             <img src="/images/logo2.png" alt="">
         </div>
-        <ul class="flex items-center gap-4">
+        <ul class="flex items-center gap-4 text-[#707070]">
             <li>Home</li>
             <li class="flex items-center">Services <img class="w-5 h-5" src="/images/Frame (1).png" alt=""></li>
             <li class="flex items-center">Cases <img class="w-5 h-5" src="/images/Frame (1).png" alt=""></li>
@@ -23,6 +31,14 @@
         <button class="bg-[#B68C5A] text-white font-semibold px-5 rounded-md">Free Consultation</button>      
        </nav>
        <!-- banner -->
+       <div class="text-center banner-img text-white items-center">
+        <h1 class="text-5xl mb-4">We Provide Effective Legal Solutions</h1>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <div class="flex gap-4 justify-center mt-5">
+            <input type="text" class="rounded-md px-5 py-3 border-none" placeholder="Search your services">
+            <button class="bg-[#B68C5A] text-white font-semibold px-5 rounded-md">Search</button>    
+        </div>
+       </div>
     </header>
   <main>
     <section class="container mx-auto pt-5 mt-5">
